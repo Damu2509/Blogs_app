@@ -5,6 +5,6 @@ from django.contrib import admin
 
 urlpatterns = [
 
-    path('', views.home,name='blog_home'),
-    path('about/', views.about,name='blog_about'),
+    path('', views.home,name='home'),
+    path('about/', views.about,name='blog-about'),
 ]
